@@ -3,10 +3,35 @@
 Este proyecto es una aplicación básica de React desarrollada con TypeScript. A continuación se describe la estructura del proyecto y la función de cada carpeta y archivo principal.
 
 ## Estructura del Proyecto
-my-react-app ├── public │ └── index.html ├── src │ ├── components │ │ ├── WelcomeMessage.tsx │ │ └── UserProfile.tsx │ ├── services │ │ └── apiService.ts │ ├── classes │ │ └── exampleClass.ts │ ├── hooks │ │ └── useExampleHook.ts │ ├── utils │ │ └── helpers.ts │ ├── styles │ │ └── App.css │ ├── types │ │ └── index.ts │ ├── App.tsx │ ├── index.tsx │ └── reportWebVitals.ts ├── .gitignore ├── package.json ├── tsconfig.json └── README.md
 
 
 ## Descripción de Carpetas y Archivos
+my-react-app
+├── public
+│ └── index.html
+├── src
+│ ├── components
+│ │ ├── WelcomeMessage.tsx
+│ │ └── UserProfile.tsx
+│ ├── services
+│ │ └── apiService.ts
+│ ├── classes
+│ │ └── exampleClass.ts
+│ ├── hooks
+│ │ └── useExampleHook.ts
+│ ├── utils
+│ │ └── helpers.ts
+│ ├── styles
+│ │ └── App.css
+│ ├── types
+│ │ └── index.ts
+│ ├── App.tsx
+│ ├── index.tsx
+│ └── reportWebVitals.ts
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
 
 - **public/index.html**  
   Archivo HTML principal que sirve como punto de entrada para la aplicación React.
