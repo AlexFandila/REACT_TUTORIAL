@@ -1,55 +1,58 @@
 # My React App
 
-This is a basic React application created using TypeScript. Below is a brief overview of the project structure and its files.
+Este proyecto es una aplicación básica de React desarrollada con TypeScript. A continuación se describe la estructura del proyecto y la función de cada carpeta y archivo principal.
 
-## Project Structure
+## Estructura del Proyecto
+my-react-app ├── public │ └── index.html ├── src │ ├── components │ │ ├── WelcomeMessage.tsx │ │ └── UserProfile.tsx │ ├── services │ │ └── apiService.ts │ ├── classes │ │ └── exampleClass.ts │ ├── hooks │ │ └── useExampleHook.ts │ ├── utils │ │ └── helpers.ts │ ├── styles │ │ └── App.css │ ├── types │ │ └── index.ts │ ├── App.tsx │ ├── index.tsx │ └── reportWebVitals.ts ├── .gitignore ├── package.json ├── tsconfig.json └── README.md
 
-```
-my-react-app
-├── public
-│   └── index.html        # Main HTML file serving as the entry point for the React application
-├── src
-│   ├── App.css          # Styles for the main App component
-│   ├── App.tsx          # Main App component of the application
-│   ├── index.css        # Global styles for the application
-│   └── index.tsx        # Entry point for the React application
-├── package.json          # Configuration file for npm, listing dependencies and scripts
-├── tsconfig.json         # TypeScript configuration file
-└── README.md             # Documentation for the project
-```
 
-## Getting Started
+## Descripción de Carpetas y Archivos
 
-To get started with this project, follow these steps:
+- **public/index.html**  
+  Archivo HTML principal que sirve como punto de entrada para la aplicación React.
 
-1. **Clone the repository**:
-   ```
-   git clone <repository-url>
-   cd my-react-app
-   ```
+- **src/components/**  
+  Contiene los componentes reutilizables de la interfaz de usuario, como `WelcomeMessage` y `UserProfile`.
 
-2. **Install dependencies**:
-   ```
-   npm install
-   ```
+- **src/services/**  
+  Incluye servicios para la gestión de lógica de negocio o comunicación con APIs externas.
 
-3. **Run the application**:
-   ```
-   npm start
-   ```
+- **src/classes/**  
+  Define clases auxiliares o modelos de datos utilizados en la aplicación.
 
-The application will be available at `http://localhost:3000`.
+- **src/hooks/**  
+  Contiene hooks personalizados de React para encapsular y reutilizar lógica de estado o efectos.
 
-## Built With
+- **src/utils/**  
+  Funciones utilitarias y helpers generales que pueden ser usados en diferentes partes de la aplicación.
 
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript
-- [npm](https://www.npmjs.com/) - Package manager for JavaScript
+- **src/styles/**  
+  Archivos CSS y estilos globales o específicos de componentes.
 
-## Contributing
+- **src/types/**  
+  Definiciones de tipos TypeScript compartidos en la aplicación.
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or features.
+- **src/App.tsx**  
+  Componente principal de la aplicación, encargado de orquestar la estructura general y renderizar los componentes principales.
 
-## License
+- **src/index.tsx**  
+  Punto de entrada de la aplicación React, donde se monta el componente principal en el DOM.
 
-This project is licensed under the MIT License.
+- **src/reportWebVitals.ts**  
+  Archivo opcional para medir y reportar métricas de rendimiento de la aplicación.
+
+- **.gitignore**  
+  Lista de archivos y carpetas que deben ser ignorados por Git.
+
+- **package.json**  
+  Archivo de configuración del proyecto que define dependencias, scripts y metadatos.
+
+- **tsconfig.json**  
+  Configuración de TypeScript para el proyecto.
+
+- **README.md**  
+  Este archivo, que describe la estructura y propósito de cada parte del proyecto.
+
+---
+
+Este README proporciona una visión general de la estructura y la función de cada parte del proyecto, facilitando su comprensión y mantenimiento en el futuro.
